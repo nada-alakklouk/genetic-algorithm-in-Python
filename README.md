@@ -44,4 +44,4 @@ An artificial intelligence project implementing a **Genetic Algorithm (GA)** fro
 
 ## 👤 Developed by:
 * **Nada Alaklook**
-* 🔗 [Connect with me on LinkedIn](https://linkedin.com/in/nada-alaklook-725049252)
+* 🔗 [Connect with me on LinkedIn](www.linkedin.com/in/nada-alakklouk-725049252)
