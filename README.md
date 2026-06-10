@@ -26,8 +26,7 @@ An artificial intelligence project implementing a **Genetic Algorithm (GA)** fro
 ## 🚀 Evolutionary Pipeline Workflow
 
 1. **Population Initialization:** Spawning a baseline generation of 50 random binary strings, decoding them into real numbers within $[-10, 10]$ using the mapping formula:
-   generation of 50 random binary strings, decoding them into real numbers within $[-10, 10]$ using the mapping formula:
-   $$x = X_{min} + \frac{\text{int}(x_{bin}, 2)}{2^{\text{Gene\_Length}} - 1} \times (X_{max} - X_{min})$$
+   $$x = X_{\text{min}} + \frac{\text{int}(x_{\text{bin}}, 2)}{2^{\text{GeneLength}} - 1} \times (X_{\text{max}} - X_{\text{min}})$$
 2. **Fitness Calculation:** Scoring each decoded individual through the objective function $f(x)$.
 3. **Mating Selection:** Executing Tournament loops to filter high-performing vectors.
 4. **Reproduction & Mutation:** Splicing parent bitstrings at a random index and checking each bit sequentially against the mutation probability to flip it (`0` $\leftrightarrow$ `1`).
